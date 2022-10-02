@@ -10,10 +10,12 @@ namespace _11._10._2022
     {
 
         public double Damage { get; set; }
+        public string Name { get; set; }
         public Fist()
         {
  
             Damage = 1;
+            Name = "Накачаная рука";
         }
         public void Attack()
         {

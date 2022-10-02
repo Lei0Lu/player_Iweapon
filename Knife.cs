@@ -10,11 +10,12 @@ namespace _11._10._2022
     {
         public double Health { get; set; }
         public double Damage { get; set; }
-
+        public string Name { get; set; }
         public Knife()
         {
             Health = 100;
             Damage = 5;
+            Name = "Раскладной нож";
         }
 
         public void Attack()
